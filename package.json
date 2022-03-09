@@ -1,8 +1,24 @@
 {
-  "dependencies": {
+  "devDependencies": {
+    "chromedriver": "^99.0.0",
     "nightwatch": "^2.0.10"
   },
-  "devDependencies": {
-    "chromedriver": "^99.0.0"
-  }
+  "name": "gsearch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreibenea/gsearch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreibenea/gsearch/issues"
+  },
+  "homepage": "https://github.com/andreibenea/gsearch#readme",
+  "description": ""
 }
